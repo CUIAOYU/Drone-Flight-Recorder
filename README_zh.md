@@ -72,7 +72,7 @@
 
 ### 如何运行仿真
 
-1.  将 `flight_recorder.v` 和 `flight_recorder_tb.v` 添加到你的Verilog仿真工具（如Vivado, ModelSim等）中。
+1.  将 `flight_recorder.v` 和 `flight_recorder_tb.v` 添加到你的Verilog仿真工具（如Vivado）中。
 2.  将 `flight_recorder_tb` 设为顶层仿真模块。
 3.  运行仿真。
     *   Testbench中包含一个 `$monitor` 任务，它会在仿真过程中持续打印所有关键信号的状态，方便直接在控制台进行调试和跟踪。
